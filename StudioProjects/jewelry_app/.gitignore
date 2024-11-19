@@ -16,10 +16,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code settings
+#.vscode/ # Uncomment this if you want to ignore VS Code settings
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -41,3 +39,28 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Archivos generados por macOS
+.AppleDouble
+.LSOverride
+
+# Archivos de caché de Node.js
+node_modules/
+
+# Otros archivos específicos de tu entorno
+.config/
+.cache/
+.flutter/
+
+# Archivos temporales de JetBrains
+.gradle/
+.maven/
+
+# Node.js logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Archivos generados por sistemas como macOS o Windows
+Thumbs.db
+desktop.ini
