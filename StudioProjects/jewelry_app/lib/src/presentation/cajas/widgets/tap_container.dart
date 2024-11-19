@@ -26,14 +26,14 @@ class TabContainer extends StatelessWidget {
                   text: 'Entradas',
                   icon: Icon(
                     Icons.input,
-                    color: Colors.white,
+                    color: Colors.green,
                   ),
                 ),
                 Tab(
                   text: 'Salidas',
                   icon: Icon(
                     Icons.output,
-                    color: Colors.white,
+                    color: Colors.red,
                   ),
                 ),
               ],
