@@ -1,0 +1,42 @@
+name: jewelry_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #LOGIC
+  freezed: ^2.3.2
+  get_it: ^7.2.0
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.7.0
+
+  #NAVIGATION
+  auto_route: ^5.0.2
+  url_strategy: ^0.2.0
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.2.1
+  flutter_bloc: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.3.2
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - images/
+    - google_fonts/
+
+
